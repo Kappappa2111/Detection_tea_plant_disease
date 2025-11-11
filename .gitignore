@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+env/
+venv/
+.venv/
+
+# data
+data/raw/
+data/processed/
+*.h5
+*.tfrecord
+
+# checkpoints / experiments
+experiments/**/checkpoints/
+*.pth
+*.ckpt
+
+# Jupyter
+.ipynb_checkpoints
+
+# system
+.DS_Store
